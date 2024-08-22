@@ -4,7 +4,9 @@ public class SmallestLargest{
         int[] nums = new int[10];
         for(int i=0; i<nums.length; i++){
             nums[i] = (int)(Math.random()*100);
+            System.out.print(nums[i] + " ");
         }
+        System.out.println("");
         System.out.println(smallestValue(nums));
         System.out.println(largestValue(nums));
 
